@@ -1,0 +1,29 @@
+{
+  "name": "server-deployment-practice",
+  "version": "1.0.0",
+  "description": "hands on with Node.js development, deploying a web server using CI and CD and get used to the general process of building and deploying servers",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --coverage --verbose",
+    "test-watch": "jest --watchAll --verbose --coverage",
+    "lint": "eslint **/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibrahimBanat/server-deployment-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ibrahimBanat/server-deployment-practice/issues"
+  },
+  "homepage": "https://github.com/ibrahimBanat/server-deployment-practice#readme",
+  "dependencies": {
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "jest": "^26.6.3",
+    "supertest": "^6.1.3"
+  }
+}
